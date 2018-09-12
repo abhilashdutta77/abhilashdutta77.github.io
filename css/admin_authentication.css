@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;            
+}
+.row::after{
+    content: "" ;
+    display: block;
+    clear: both;
+}
+section.backimg{
+    padding-top: 5rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(/project/img/abc.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+}

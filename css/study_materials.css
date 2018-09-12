@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;            
+}
+.row::after{
+    content: "" ;
+    display: block;
+    clear: both;
+}
+
+.header{
+    color: white;
+    font-size: 70px;
+}    
+
+hr{
+    max-width: 50px;
+    border-width: 3px;
+    border-color: white;
+}
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(/project/img/abc.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+}
+section {
+    padding: 8rem 0;
+}
+
+section.backimg{
+    background-image: url(/project/img/abc.jpg);
+}
+
+div.margin{
+    margin: 60px;
+}
+div.flex{
+    display: flex;
+    justify-content: space-around;
+}
